@@ -10,7 +10,7 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 ##Tutorial outline
 * [x] [Why learn this?](#why-learn-this)
 * [x] [What is multivariate testing?](#what-is-it)
-* [ ] Multivariate vs A/B testing
+* [x] Multivariate vs A/B testing
 * [ ] Where to start
 * [ ] Setting up your first multivariate test
 * [ ] Terminology
@@ -37,6 +37,7 @@ A few of the more obvious things to test include:
 **_NB. MVT can also be used to taste anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
 
 ##Multivariate vs A/B Testing
+
 In [**A/B testing**](http://www.widerfunnel.com/solutions/website-testing/ab-split-testing) you test 2 (or more) different versions of your website by splitting the traffic evenly between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal.
 
 ![ab-testing-two-versions](https://cloud.githubusercontent.com/assets/4185328/7446931/a4cfa1c2-f1e0-11e4-9117-c897a8ebaa3b.jpg)
@@ -48,7 +49,12 @@ Just these 3 elements mean testing _8 different versions of your site at once_.
 
 ![mvt-graphic-it](https://cloud.githubusercontent.com/assets/4185328/7446084/0846e944-f1c4-11e4-94a2-28bb5379faba.jpg)
 
-
+|       | A/B testing   | Multivariate testing |
+| ------------- |:-------------:| :-----: |
+| **What can you test?**     | Different layouts & designs or changes to single elements | Effects of changes to combinations of elements |
+| **Number of visitors required for meaningful results**    | Relatively low      |   High |
+| **Time required for meaningful results** | Short      |    Considerably longer |
+| **Best used for**  | Significantly different layouts & designs or low traffic sites | Tweaking and optimising combinations of elements |
 
 #Terminology
 A quick list of terms you may see 
