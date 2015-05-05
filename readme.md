@@ -13,10 +13,10 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 * [x] [Why learn this?](#why-learn-this)
 * [x] [What is multivariate testing?](#what-is-it)
 * [x] [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
-* [ ] Getting started
+* [x] [Getting started](#getting-started)
 * [ ] Setting up your first multivariate test
-* [ ] Terminology
-* [ ] Resources
+* [ ] [Terminology](#terminology)
+* [ ] [Resources](#resources)
 
 ##Why learn this? 
 >By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
@@ -65,11 +65,12 @@ Before you can start your tests, you have to do a little analysis to determine *
 If you don't already have a [web analytics](http://en.wikipedia.org/wiki/Web_analytics) package on your site, I'm surprised you even found this article. Sign up to [Google Analytics](analytics.google.com) at the very least and start collecting some data that you can base decisions and tests on.
 
 ####1. What are your problem areas?
-Dig out your site metrics (see step 0) and figure out where your problem areas are.    
-Is there a page that's not doing what you expect it to?    
-Are 50% of people leaving your sign up page without signing up?      
-Do you get a ton of email asking about your pricing when it's right there on the website already?
-Is your homepage bounce rate through the roof?
+Dig out your site metrics (see step 0) and figure out where your problem areas are. Understanding web analytics is a whole other post but here are a few examples to start you off:    
+* Is there a page that's not doing what you expect it to?    
+* Are 50% of people leaving your sign up page without signing up?      
+* Do you get a ton of email asking about your pricing when it's right there on the website already?
+* Is your homepage bounce rate through the roof?
+* Are you just not sure whether you should use one image or another or your homepage?
 
 _Decide what your problem areas are, prioritise them and start with the first one._ Go for the areas of most impact.
 
@@ -81,17 +82,17 @@ What is it that you want this problem area to achieve?
 
 ####3. Consider why it's not working as you expect (hypothesis)
 You've decided that your problem area is your eBook download page and your goal is to get more people to download a free chapter (for example). So **why do you think** not 'enough' people downloading it now?    
-Is it that they don't see your download link?     
-They don't realise that they're a free chapter without having to buy the book?    
-That they input their email address but never submit it to you?
+* Is it that they don't see your download link?     
+* They don't realise that they're a free chapter without having to buy the book?    
+* That they input their email address but never submit it to you?
 
-**This shouldn't be pure guesswork.** Use your [**metrics**](http://en.wikipedia.org/wiki/Web_analytics) to understand what's going on as best you can and if possible **watch real users use your website or app** and ask them questions at the end. 
+**This shouldn't be pure guesswork.** Use your [**metrics**](http://en.wikipedia.org/wiki/Web_analytics) to understand what's going on as best you can and if possible [**watch real users use your website or app** and ask them questions at the end](http://amzn.to/1IcNpA0). 
 
 
 _You have to have some educated deductions as to why things aren't working as expected in order to know what you should try changing._
 
 ####4. Design your variations
-This is the **fun part**. Based on what you think isn't working (step 3), decide what you're going to change and put together your various versions.
+This is the **fun part**. Based on what you think isn't working (step 3), decide what you're going to change and create your variations.
 
 * **Don't go crazy and try to test everything straight away.** Remember that the more variations you have, the more visitors you'll need to your website to get meaningful results, so just test what you truly think will have an impact.
 * Remember that you will be using your existing website as a [control](#terminology) so some visitors will still be split off to that variation. 
@@ -99,26 +100,30 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 **_Now you're ready to run your test!_**
 
 #Terminology
-A quick list of terms you may see 
-* **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content
-* **Element contribution** allows you to determine the percentage that each element contributes to your site's goal
+A quick list of terms you may see when reading up about this around the web.
 * A/B testing
-* Split testing
+* **Control** - your control is the _existing_ webpage that gives you your **base metrics**; you want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time
+* **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content
 * Conversion optimization
-* Control
+* **Element contribution** allows you to determine the percentage that each element contributes to your site's goal
+* **Full Factorial testing** is a multivariate test that includes variations of _every_ element on a given page (remember you need **_a LOT_** of traffic to pull this off!)
+* **Fractional (partial) Factorial testing** is a multivariate test which tests variations on 2 or more elements on a page (not _all_ of them)
+* **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
 
 #Open Questions
 * [ ] How much data do you need to reach a conclusion? Maybe for a different tutorial?
 
 ##Resources
-* [ ] Multivariate testing 101: http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/
-* [ ] What is multivariate testing? https://www.optimizely.com/resources/multivariate-testing/
+* [x] Multivariate testing 101: http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/
+* [x] What is multivariate testing? https://www.optimizely.com/resources/multivariate-testing/
+* [ ] Expert Guide to Multivariate Success: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html
 
 **A/B vs multivariate testing:**
 * [x] A/B testing vs multivariate: https://vwo.com/blog/difference-ab-testing-multivariate-testing/
 * [x] A/B Split Testing vs. Multivariate: Pros & Cons http://www.widerfunnel.com/conversion-rate-optimization/ab-split-testing-vs-multivariate-pros-cons
 
 **What to test:**
+* The [WiderFunnel blog](http://www.widerfunnel.com/blog) is quite opinionated but a good source of inspiration
 * An excellent article on A/B testing filled with example on what Buffer have tested: https://blog.bufferapp.com/how-buffer-ab-tests
 * [ ] Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249
 * [ ] http://conversionxl.com/10-useful-findings-about-how-people-view-websites/
@@ -127,8 +132,7 @@ A quick list of terms you may see
 
 
 **Videos:**
-* [ ] A/B & multivariate Testing with Google Web Site Optimizer: https://www.youtube.com/watch?v=pDQsfMZQ44A
-* [ ] Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests: https://www.youtube.com/watch?v=7xV7dlwMChc
+* [ ] Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
 
 
 **Books:** (affiliate links)
