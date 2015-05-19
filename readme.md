@@ -1,4 +1,4 @@
-#Multivariate Testing [WiP]
+#A/B & Multivariate testing tutorial
 
 >"Insanity is doing the same thing over and over again and expecting different results"  -  Albert Einstein
 
@@ -10,20 +10,15 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 
 
 ##Tutorial outline
-* [x] [Why learn this?](#why-learn-this)
-* [x] [What is multivariate testing?](#what-is-it)
-* [x] [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
-* [x] [Getting started](#getting-started)
-* [ ] Setting up your first multivariate test
+This is an **introduction to A/B and multivariate testing**.    
+For a practical tutorial on how to do these in [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview) please skip straight to 'How to A/B test in Google Content Experiments' (still being written) or 'Multivariate testing in Google Content Experiments tutorial' (still being written).
+* [ ] What are A/B and multivariate testing?
+* [ ] [Why learn this?](#why-learn-this)
+* [ ] [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
+* [ ] [Getting started](#getting-started)
+* [ ] Setting up your first A/B or multivariate test
 * [ ] [Terminology](#terminology)
 * [ ] [Resources](#resources)
-
-##Why learn this? 
->By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
-
-Now you know where to focus your efforts! Multivariate testing allows you to **get your message across** to the people already coming to your site or app **in the best way possible**.
-
-![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png) 
 
 ##What is it?
 People decide whether to leave or engage with a site [in the first 8 seconds](https://blog.kissmetrics.com/what-converting-websites-do/) - that's not much time to capture people's attention so you've got to get it right _for your audience_.
@@ -37,6 +32,13 @@ A few of the more obvious things to test include:
 * Form fields a layout
 
 **_NB. MVT can also be used to taste anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
+
+##Why learn this? 
+>By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
+
+Now you know where to focus your efforts! Multivariate testing allows you to **get your message across** to the people already coming to your site or app **in the best way possible**.
+
+![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png) 
 
 ##Multivariate vs A/B Testing
 
@@ -117,6 +119,7 @@ A quick list of terms you may see when reading up about this around the web.
 * [x] Multivariate testing 101: http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/
 * [x] What is multivariate testing? https://www.optimizely.com/resources/multivariate-testing/
 * [ ] Expert Guide to Multivariate Success: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html
+* [ ] Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview)
 
 **A/B vs multivariate testing:**
 * [x] A/B testing vs multivariate: https://vwo.com/blog/difference-ab-testing-multivariate-testing/
