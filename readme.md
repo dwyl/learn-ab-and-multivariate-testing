@@ -1,6 +1,8 @@
 #TODO
 + [ ] Review long MVT tutorial for additional terminology that might come up
 + [ ] Decide what to do about that open questions
++ [ ] Check web analytics book for most telling metrics to use as examples
++ [ ] Add amazon link to web analytics book (step 1)
 + [ ] Double check only the resources I have vetted and think are good are in this tutorial
 + [ ] Write the linking text to setting up your first A/B test
 + [ ] Test links in content guide
