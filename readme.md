@@ -1,5 +1,12 @@
-#A/B & Multivariate testing tutorial
-This is an introduction to A/B and multivariate testing.    
+#TODO
++ [ ] Review long MVT tutorial for additional terminology that might come up
++ [ ] Decide what to do about that open questions
++ [ ] Double check only the resources I have vetted and think are good are in this tutorial
++ [ ] Write the linking text to setting up your first A/B test
++ [ ] Test links in content guide
+
+#A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
+This is a short introduction to the concepts of A/B and multivariate testing and how to get started.    
 For a **practical tutorial on how to do these in [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview)** please skip straight to 'How to A/B test in Google Content Experiments' (still being written) or 'Multivariate testing in Google Content Experiments tutorial' (still being written).
 
 >"Insanity is doing the same thing over and over again and expecting different results"  -  Albert Einstein
@@ -12,13 +19,13 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 
 
 ##Tutorial outline
-* [x] [What are A/B and multivariate testing?](#what-are-ab-and-multivariate-testing)
-* [x] [Why learn this?](#why-learn-this)
-* [x] [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
-* [ ] [Getting started](#getting-started)
-* [ ] Setting up your first A/B or multivariate test
-* [ ] [Terminology](#terminology)
-* [ ] [Resources](#resources)
++ [What are A/B and multivariate testing?](#what-are-ab-and-multivariate-testing)
++ [Why learn this?](#why-learn-this)
++ [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
++ [Getting started](#getting-started)
++ Setting up your first A/B or multivariate test
++ [Terminology](#terminology)
++ [Resources](#resources)
 
 ##What are A/B and multivariate testing?
 People decide whether to leave or engage with a site [in the first 8 seconds](https://blog.kissmetrics.com/what-converting-websites-do/) - that's not much time to capture people's attention so you've got to get it right _for your audience_.
@@ -31,29 +38,29 @@ A few of the more obvious things to test include:
 * Placement & colour of elements
 * Form fields a layout
 
-**_NB. A/B and MVTs can also be used to test anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
+**_NB. A/B and multivariate tests can also be used to test anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
 
 ##Why learn this? 
 >By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
 
-Now you know where to focus your efforts! Multivariate testing allows you to **get your message across** to the people already coming to your site or app **in the best way possible**.
+Now you know where to focus your efforts! Testing leads you to **get your message across** to the visitors to your site or app **in the best way possible**.
 
 ![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png) 
 
 ##Multivariate vs A/B Testing
 
-In [**A/B testing**](http://www.widerfunnel.com/solutions/website-testing/ab-split-testing) you test 2 (or more) different versions of your website by splitting the traffic evenly between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal.
+In **A/B testing** you test 2 (or more) different versions of your website by splitting the traffic between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal. 
 
 ![ab-testing-two-versions](https://cloud.githubusercontent.com/assets/4185328/7446931/a4cfa1c2-f1e0-11e4-9117-c897a8ebaa3b.jpg)
 
-In **multivariate testing** you pick a certain number of elements on a page and **simultaneously test multiple combinations of them** to understand which **combination** provides the best results. You could see it as running many A/B tests at once.
+In **multivariate testing (MVT)** you pick a certain number of elements on a page and **simultaneously test multiple combinations of them** to understand which **combination** provides the best results. You could see it as running many A/B tests at once.
 
 In the illustration below, I've used testing 2 different headlines, 2 different colour buttons and having a video on the homepage as an example.    
 Just these 3 elements mean testing _8 different versions of your site at once_ with multivariate testing.
 
 ![mvt-graphic-it](https://cloud.githubusercontent.com/assets/4185328/7446084/0846e944-f1c4-11e4-94a2-28bb5379faba.jpg)
 
-|       | A/B testing   | Multivariate testing |
+|       | A/B testing   | MVT |
 | ------------- |:-------------:| :-----: |
 | **What can you test?**     | Different layouts & designs or changes to single elements | Effects of changes to combinations of elements |
 | **Number of visitors required for meaningful results**    | Relatively low      |   High |
@@ -64,7 +71,7 @@ Just these 3 elements mean testing _8 different versions of your site at once_ w
 Before you can start your tests, you have to do a little analysis to determine **what you're testing**.
 
 ####Step 0: Get your analytics on
-If you don't already have a [web analytics](http://en.wikipedia.org/wiki/Web_analytics) package on your site, I'm surprised you even found this article. Sign up to [Google Analytics](analytics.google.com) at the very least and start collecting some data that you can base decisions and tests on.
+If you don't already have a [web analytics](http://en.wikipedia.org/wiki/Web_analytics) package on your site, I'm surprised you even found this article. Sign up to [Google Analytics](analytics.google.com) and start collecting some data that you can base decisions and tests on.
 
 ####1. What are your problem areas?
 Dig out your site metrics (see step 0) and figure out where your problem areas are. Understanding web analytics is a whole other post but here are a few examples to start you off:    
@@ -91,7 +98,7 @@ You've decided that your problem area is your eBook download page and your goal 
 **This shouldn't be pure guesswork.** Use your [**metrics**](http://en.wikipedia.org/wiki/Web_analytics) to understand what's going on as best you can and if possible [**watch real users use your website or app** and ask them questions at the end](http://amzn.to/1IcNpA0). 
 
 
-_You have to have some educated deductions as to why things aren't working as expected in order to know what you should try changing._
+_You have to have some educated deductions as to why things aren't working as expected in order to know what you should try to change in step 4._
 
 ####4. Design your variations
 This is the **fun part**. Based on what you think isn't working (step 3), decide what you're going to change and create your variations.
@@ -103,13 +110,13 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 
 #Terminology
 A quick list of terms you may see when reading up about this around the web.
-* A/B testing
-* **Control** - your control is the _existing_ webpage that gives you your **base metrics**; you want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time
-* **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content
-* Conversion optimization
-* **Element contribution** allows you to determine the percentage that each element contributes to your site's goal
-* **Full Factorial testing** is a multivariate test that includes variations of _every_ element on a given page (remember you need **_a LOT_** of traffic to pull this off!)
-* **Fractional (partial) Factorial testing** is a multivariate test which tests variations on 2 or more elements on a page (not _all_ of them)
+* **Control** - your control is the _existing_ webpage that also gives you your **base metrics**; you want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
+* **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content. If 20% of your visitors buy your product, you have a 20% conversion rate.
+* **Conversion (rate) optimization** is the structured approach you take to increasing your conversion rate - A/B and multivariate testing form a part of this.
+* **Element contribution** allows you to determine the percentage that each element contributes to your site's goal.
+* **Full Factorial testing** is a MVT that includes variations of _every_ element on a given page (remember you need **_a LOT_** of traffic to pull this off!).
+* **Fractional (partial) Factorial testing** is a MVT which tests variations on 2 or more elements on a page (not _all_ of them) - more common.
+* **MVT** is the accepted abbreviation for multivariate testing
 * **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
 
 #Open Questions
