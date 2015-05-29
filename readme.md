@@ -1,12 +1,12 @@
 #TODO
-+ [ ] Review long MVT tutorial for additional terminology that might come up
++ [x] Review long MVT tutorial for additional terminology that might come up
 + [ ] Decide what to do about that open questions
 + [ ] Check web analytics book for most telling metrics to use as examples
 + [x] Add amazon link to web analytics book (step 1)
 + [x] Double check only the resources I have vetted and think are good are in this tutorial
 + [ ] Write the linking text to setting up your first A/B test
-+ [ ] Test links in content guide
-+ [ ] Add this link tog the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249
++ [x] Test links in content guide
++ [ ] Add this link to the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249 also for interpreting your results section: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/multivariate-te.html and https://econsultancy.com/blog/6740-what-your-mother-never-taught-you-about-multivariate-testing/
 
 #A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
@@ -119,6 +119,7 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 
 #Terminology
 A quick list of terms you may see when reading up about this around the web.
+* **Confidence** is the [statistical confidence levels](https://vwo.com/blog/what-you-really-need-to-know-about-mathematics-of-ab-split-testing/) of your tests' results; the higher the confidence level, the more reliable your results are. You can calculate this _using the metrics from your test after it has finished_ using [any one of the split test calculators available](http://drpete.co/split-test-calculator)
 * **Control** - your control is the _existing_ webpage you're looking to test, that also gives you your **base metrics**. You want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
 * **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content. If 20% of your visitors buy your product, you have a 20% conversion rate.
 * **Conversion (rate) optimization** is the structured approach you take to increasing your conversion rate - A/B and multivariate testing form a part of this.
@@ -126,6 +127,7 @@ A quick list of terms you may see when reading up about this around the web.
 * **Full Factorial testing** is a MVT that includes variations of _every_ element on a given page (remember you need **_a LOT_** of traffic to pull this off!).
 * **Fractional (partial) Factorial testing** is a MVT which tests variations on 2 or more elements on a page (not _all_ of them) - more common.
 * **MVT** is the accepted abbreviation for multivariate testing
+* **MVT test array** is the name given to the group of elements you are going to be testing, [usually provided in table form](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/04/multivariate-te.html) so you can clearly see how many variations of a page you will need to produce.
 * **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
 
 #Open Questions
