@@ -1,12 +1,12 @@
 #TODO
 + [x] Review long MVT tutorial for additional terminology that might come up
-+ [ ] Decide what to do about that open questions
++ [x] Decide what to do about that open questions
 + [ ] Check web analytics book for most telling metrics to use as examples
 + [x] Add amazon link to web analytics book (step 1)
 + [x] Double check only the resources I have vetted and think are good are in this tutorial
-+ [ ] Write the linking text to setting up your first A/B test
++ [x] Write the linking text to setting up your first A/B test
 + [x] Test links in content guide
-+ [ ] Add this link to the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249 also for interpreting your results section: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/multivariate-te.html and https://econsultancy.com/blog/6740-what-your-mother-never-taught-you-about-multivariate-testing/
++ [ ] Add this link to the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249 also for interpreting your results section: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/multivariate-te.html and https://econsultancy.com/blog/6740-what-your-mother-never-taught-you-about-multivariate-testing/ and 
 
 #A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
@@ -117,21 +117,39 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 
 **_Now you're ready to run your test!_**
 
-#Terminology
+##Setting up your first A/B or multivariate test
+These days there are lots of testing tools available such as [Optimizely](https://www.optimizely.com/), [VWO](https://vwo.com) or even [Adobe's Test & Target](http://www.adobe.com/solutions/testing-targeting/testandtarget.html).
+In fact, you can find a [comparison chart of them here](http://www.conversion-rate-experts.com/split-testing-software/).    
+We're using [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview) which if _'free'_ to use (provided you're happy for google to have your data) and part of the Google Analytics platform.
+
+
+_We're currently writing a tutorial on how to set this up in Content Experiments, so please check back in a week for a link!_
+
+###How long should you run your tests for?
+This is different for each site but here's a place to start: 
+https://vwo.com/ab-split-test-duration/
+
+We always run ours for a minimum of 2 weeks (including weekends).
+
+Things to consider:
++ **Weekday/weekend/holiday variations:** Include a few weekends and weekdays in your tests as your weekend visitors might be very different to your weekday ones
++ **Seasonality of your traffic:** If you're a Christmas shop and you run your tests in February, even if you run them for 6 months this likely won't be representative of the visitors that you want to optimise for (the ones in October - December)
+* **Sample size:** If you've only had 50 visitors to your site during your test, your results won't be very reliable as a representation of your usual audience. Optimizely has a [sample size calculator](https://www.optimizely.com/resources/sample-size-calculator/) you might want to play around with.
+
+##Terminology
 A quick list of terms you may see when reading up about this around the web.
 * **Confidence** is the [statistical confidence levels](https://vwo.com/blog/what-you-really-need-to-know-about-mathematics-of-ab-split-testing/) of your tests' results; the higher the confidence level, the more reliable your results are. You can calculate this _using the metrics from your test after it has finished_ using [any one of the split test calculators available](http://drpete.co/split-test-calculator)
 * **Control** - your control is the _existing_ webpage you're looking to test, that also gives you your **base metrics**. You want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
 * **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content. If 20% of your visitors buy your product, you have a 20% conversion rate.
 * **Conversion (rate) optimization** is the structured approach you take to increasing your conversion rate - A/B and multivariate testing form a part of this.
+* **Conversions** are the _number_ of people that do what you wanted them to do on your site (rather than the percentage)
 * **Element contribution** allows you to determine the percentage that each element contributes to your site's goal.
 * **Full Factorial testing** is a MVT that includes variations of _every_ element on a given page (remember you need **_a LOT_** of traffic to pull this off!).
 * **Fractional (partial) Factorial testing** is a MVT which tests variations on 2 or more elements on a page (not _all_ of them) - more common.
+* **Minimum detectable effect** is the percentage change in conversions you want to get from your test (based on the metrics you have for your _control_). You'll need more visitors to test for smaller changes than for larger ones.
 * **MVT** is the accepted abbreviation for multivariate testing
 * **MVT test array** is the name given to the group of elements you are going to be testing, [usually provided in table form](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/04/multivariate-te.html) so you can clearly see how many variations of a page you will need to produce.
 * **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
-
-#Open Questions
-* [ ] How much data do you need to reach a conclusion? Maybe for a different tutorial?
 
 ##Resources
 * [ ] A/B testing 101: https://blog.kissmetrics.com/ab-testing-introduction/
