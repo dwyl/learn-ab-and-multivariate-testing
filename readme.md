@@ -2,11 +2,11 @@
 + [ ] Review long MVT tutorial for additional terminology that might come up
 + [ ] Decide what to do about that open questions
 + [ ] Check web analytics book for most telling metrics to use as examples
-+ [ ] Add amazon link to web analytics book (step 1)
++ [x] Add amazon link to web analytics book (step 1)
 + [x] Double check only the resources I have vetted and think are good are in this tutorial
 + [ ] Write the linking text to setting up your first A/B test
 + [ ] Test links in content guide
-+ [ ] Add this link to the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249
++ [ ] Add this link tog the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249
 
 #A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
@@ -23,7 +23,7 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 
 
 ##Tutorial outline
-+ [What are A/B and multivariate testing?](#what-are-ab-and-multivariate-testing)
++ [What are A/B and multivariate testing?](#what-are-ab-testing-and-multivariate-testing)
 + [Why learn this?](#why-learn-this)
 + [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
 + [Getting started](#getting-started)
@@ -83,7 +83,7 @@ If you don't already have a [web analytics](http://en.wikipedia.org/wiki/Web_ana
 **You cannot do this kind of testing without data.**
 
 ####1. What are your problem areas?
-Dig out your site metrics (see step 0) and figure out [where your problem areas are](http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/). Understanding web analytics is a whole other post but here are a few examples to start you off:    
+Dig out your site metrics (see step 0) and figure out [where your problem areas are](http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/). Understanding web analytics is a whole other set of tutorials ([Web Analytics 2.0 _by Avinash Kaushik_](http://amzn.to/1JZVWaA) is an excellent book on the subject) but here are a few examples to start you off:    
 * Is there a page that's not doing what you expect it to?    
 * Are 50% of people leaving your sign up page without signing up?      
 * Do you get a ton of email asking about your pricing when it's right there on the website already?
@@ -119,7 +119,7 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 
 #Terminology
 A quick list of terms you may see when reading up about this around the web.
-* **Control** - your control is the _existing_ webpage that also gives you your **base metrics**; you want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
+* **Control** - your control is the _existing_ webpage you're looking to test, that also gives you your **base metrics**. You want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
 * **Conversion rate** is the percentage of people who come to your site who _do what you want them to do_ such as sign up to your service, buy your product or share your content. If 20% of your visitors buy your product, you have a 20% conversion rate.
 * **Conversion (rate) optimization** is the structured approach you take to increasing your conversion rate - A/B and multivariate testing form a part of this.
 * **Element contribution** allows you to determine the percentage that each element contributes to your site's goal.
