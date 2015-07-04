@@ -1,13 +1,3 @@
-#TODO
-+ [x] Review long MVT tutorial for additional terminology that might come up
-+ [x] Decide what to do about that open questions
-+ [ ] Check web analytics book for most telling metrics to use as examples
-+ [x] Add amazon link to web analytics book (step 1)
-+ [x] Double check only the resources I have vetted and think are good are in this tutorial
-+ [x] Write the linking text to setting up your first A/B test
-+ [x] Test links in content guide
-+ [ ] Add this link to the practical tutorial - Tips to improve your testing: http://marketingland.com/12-tips-to-take-your-ab-multivariate-testing-to-the-next-level-50249 also for interpreting your results section: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/multivariate-te.html and https://econsultancy.com/blog/6740-what-your-mother-never-taught-you-about-multivariate-testing/ and 
-
 #A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
     
@@ -27,7 +17,7 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 + [Why learn this?](#why-learn-this)
 + [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
 + [Getting started](#getting-started)
-+ Setting up your first A/B or multivariate test
++ [Setting up your first A/B or multivariate test](#setting-up-your-first-ab-or-multivariate-test)
 + [Terminology](#terminology)
 + [Resources](#resources)
 
@@ -123,7 +113,7 @@ In fact, you can find a [comparison chart of them here](http://www.conversion-ra
 We're using [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview) which if _'free'_ to use (provided you're happy for google to have your data) and part of the Google Analytics platform.
 
 
-_We're currently writing a tutorial on how to set this up in Content Experiments, so please check back in a week for a link!_
+_We're currently writing a tutorial on how to set this up in Content Experiments, so please check back soon for a link!_
 
 ###How long should you run your tests for?
 This is different for each site but here's a place to start: 
