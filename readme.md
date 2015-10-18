@@ -1,7 +1,7 @@
-#A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
+# A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
     
-For a **practical tutorial on how to do these in [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview)**, we will soon have tutorials on setting them up.
+For a **practical tutorial on how to do these in [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview)**, please take a look at our overview: https://github.com/iteles/learn-google-content-experiments.
 
 >"Insanity is doing the same thing over and over again and expecting different results"  -  Albert Einstein
 
@@ -12,7 +12,7 @@ Which piece of [micro-copy](https://econsultancy.com/blog/64951-six-brilliant-bi
 If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-conversion-facts/) will more people sign up to your service?
 
 
-##Tutorial outline
+## Outline
 + [What are A/B and multivariate testing?](#what-are-ab-testing-and-multivariate-testing)
 + [Why learn this?](#why-learn-this)
 + [Multivariate vs A/B testing](#multivariate-vs-ab-testing)
@@ -21,7 +21,7 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 + [Terminology](#terminology)
 + [Resources](#resources)
 
-##What are A/B testing and multivariate testing?
+## What are A/B testing and multivariate testing?
 People decide whether to leave or engage with a site [in the first 8 seconds](https://blog.kissmetrics.com/what-converting-websites-do/) - that's not much time to capture people's attention so you've got to get it right _for your audience_.
 
 >The purpose of both A/B and multivariate tests is to **allow you to understand which changes to your web site will best help you achieve your aims** (for example increasing sign ups, sales or people clicking on articles). They do so by sending some of the people who visit your site to an **alternative version** of a given page where you have made some changes. This allows you to collect data on how your visitors react to changes and therefore determine which ones work best. 
@@ -65,14 +65,16 @@ Summarised main differences:
 | **Time required for meaningful results** | Short      |    Considerably longer |
 | **Best used for**  | Significantly different layouts & designs or low traffic sites | Tweaking and optimising combinations of elements |
 
-#Getting started
-Before you can start your tests, you have to do a little analysis to determine **what you're testing**.
+# Getting started
+Before you can start your tests, you have to do a little analysis to determine **what you're testing**. But here's the key: get your experiment done and out of the door quickly so you can start learning from it (in general, aim for no more than two weeks).
+> "Don't aim for the perfect experiment, aim for enough to get the experiment shipped."   
+_Colin McFarland_
 
-####0. Get your analytics on
+#### 0. Get your analytics on
 If you don't already have a [web analytics](http://en.wikipedia.org/wiki/Web_analytics) package on your site, I'm surprised you even found this article. Sign up to [Google Analytics](analytics.google.com) and start collecting some data that you can base decisions and tests on.    
 **You cannot do this kind of testing without data.**
 
-####1. What are your problem areas?
+#### 1. What are your problem areas?
 Dig out your site metrics (see step 0) and figure out [where your problem areas are](http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/). Understanding web analytics is a whole other set of tutorials ([Web Analytics 2.0 _by Avinash Kaushik_](http://amzn.to/1JZVWaA) is an excellent book on the subject) but here are a few examples to start you off:    
 * Is there a page that's not doing what you expect it to?    
 * Are 50% of people leaving your sign up page without signing up?      
@@ -80,15 +82,17 @@ Dig out your site metrics (see step 0) and figure out [where your problem areas 
 * Is your homepage bounce rate through the roof?
 * Are you just not sure whether you should use one image or another or your homepage?
 
-_Decide what your problem areas are, prioritise them and start with the first one._ Go for the areas of most impact.
+_Decide what your problem areas are, prioritise them and start with the first one._ **Go for the areas of most impact, the ones that affect most people.**
 
-####2. What is your goal?
-What is it that you want this problem area to achieve?    
+#### 2. What is your goal?
+**What is it that you want this problem area to achieve?**    
  Is it an increase in the number of people who sign up to your newsletter? A drop in the number of people who leave your website without looking at more than your homepage?
  
  _You have to know what you want to achieve in order to determine what you can improve to get there._
+ 
+Note: these are simple goals; in reality you will have many concurrent goals so your goal may encompass more than just one metric, e.g. _increase the value of the average purchase by 20% with less than a 10% drop in total order numbers OR increase both average purchase value and order numbers._
 
-####3. Consider why it's not working as you expect (hypothesis)
+#### 3. Consider why it's not working as you expect (hypothesis)
 You've decided that your problem area is your eBook download page and your goal is to get more people to download a free chapter (for example). So **why do you think** not 'enough' people downloading it now?    
 * Is it that they don't see your download link?     
 * They don't realise that they're a free chapter without having to buy the book?    
@@ -99,7 +103,7 @@ You've decided that your problem area is your eBook download page and your goal 
 
 _You have to have some educated deductions as to why things aren't working as expected in order to know what you should try to change in step 4._
 
-####4. Design your variations
+#### 4. Design your variations
 This is the **fun part**. Based on what you think isn't working (step 3), decide what you're going to change and create your variations.
 
 * **Don't go crazy and try to test everything straight away.** Remember that the more variations you have, the more visitors you'll need to your website to get meaningful results, so just test what you truly think will have an impact.
@@ -107,15 +111,14 @@ This is the **fun part**. Based on what you think isn't working (step 3), decide
 
 **_Now you're ready to run your test!_**
 
-##Setting up your first A/B or multivariate test
+## Setting up your first A/B or multivariate test
 These days there are lots of testing tools available such as [Optimizely](https://www.optimizely.com/), [VWO](https://vwo.com) or even [Adobe's Test & Target](http://www.adobe.com/solutions/testing-targeting/testandtarget.html).
 In fact, you can find a [comparison chart of them here](http://www.conversion-rate-experts.com/split-testing-software/).    
 We're using [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview) which if _'free'_ to use (provided you're happy for google to have your data) and part of the Google Analytics platform.
 
+We've [written a step-by-step on how to set up your own Google Content Experiment](https://github.com/iteles/learn-google-content-experiments)!
 
-_We're currently writing a tutorial on how to set this up in Content Experiments, so please check back soon for a link!_
-
-###How long should you run your tests for?
+### How long should you run your tests for?
 This is different for each site but here's a place to start: 
 https://vwo.com/ab-split-test-duration/
 
