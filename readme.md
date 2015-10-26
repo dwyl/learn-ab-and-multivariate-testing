@@ -36,14 +36,16 @@ The **key** to optimisation testing is having good, measurable data to base deci
 
 **_NB. A/B and multivariate tests can also be used to test anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
 
-##Why learn this? 
+## Why learn this? 
 >By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
 
 Now you know where to focus your efforts! Testing leads you to **get your message across** to the visitors to your site or app **in the best way possible**.
 
+If you're still not convinced, read Basecamp's article: [How we lost (and found) millions by not A/B testing](https://signalvnoise.com/posts/3945-how-we-lost-and-found-millions-by-not-ab-testing).
+
 ![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png) 
 
-##Multivariate vs A/B Testing
+## Multivariate vs A/B Testing
 
 In **A/B testing** you test 2 (or more) different versions of your website by splitting the traffic between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal. 
 
@@ -129,7 +131,7 @@ Things to consider:
 + **Seasonality of your traffic:** If you're a Christmas shop and you run your tests in February, even if you run them for 6 months this likely won't be representative of the visitors that you want to optimise for (the ones in October - December)
 * **Sample size:** If you've only had 50 visitors to your site during your test, your results won't be very reliable as a representation of your usual audience. Optimizely has a [sample size calculator](https://www.optimizely.com/resources/sample-size-calculator/) you might want to play around with.
 
-##Terminology
+## Terminology
 A quick list of terms you may see when reading up about this around the web.
 * **Confidence** is the [statistical confidence levels](https://vwo.com/blog/what-you-really-need-to-know-about-mathematics-of-ab-split-testing/) of your tests' results; the higher the confidence level, the more reliable your results are. You can calculate this _using the metrics from your test after it has finished_ using [any one of the split test calculators available](http://drpete.co/split-test-calculator)
 * **Control** - your control is the _existing_ webpage you're looking to test, that also gives you your **base metrics**. You want to have a control so that you know whether your variations are performing _better or worse_ than what you already have over the same period of time.
@@ -145,20 +147,22 @@ A quick list of terms you may see when reading up about this around the web.
 * **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
 
 ## Resources
-* [A/B testing 101](https://blog.kissmetrics.com/ab-testing-introduction/)
-* [Multivariate testing 101](http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/)
-* [Expert Guide to Multivariate Success](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html) (multi-part guide)
++ [A/B testing 101](https://blog.kissmetrics.com/ab-testing-introduction/)
++ [Multivariate testing 101](http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/)
++ [Expert Guide to Multivariate Success](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html) (multi-part guide)
 + Intro to [A/B testing statistics](http://conversionxl.com/ab-testing-statistics/)
 
 **What to test:**
-* The [WiderFunnel blog](http://www.widerfunnel.com/blog) is quite opinionated but a good source of inspiration
-* [An excellent Buffer article](https://blog.bufferapp.com/how-buffer-ab-tests) on A/B testing filled with examples of what Buffer have tested
-* [24 Marketing Experts on Their Most Surprising A/B Test results](http://www.wordstream.com/blog/ws/2012/09/25/a-b-testing)
++ The [WiderFunnel blog](http://www.widerfunnel.com/blog) is quite opinionated but a good source of inspiration
++ [An excellent Buffer article](https://blog.bufferapp.com/how-buffer-ab-tests) on A/B testing filled with examples of what Buffer have tested
++ [24 Marketing Experts on Their Most Surprising A/B Test results](http://www.wordstream.com/blog/ws/2012/09/25/a-b-testing)
++ **Case study** of testing the [Highrise headline banner](https://signalvnoise.com/posts/1525-writing-decisions-headline-tests-on-the-highrise-signup-page)
++ 
 
 **Videos:**
-* Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
++ Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
 
 
 **Books:** (affiliate links)
-* [Experiment!: Website Conversion Rate Optimization with A/B and Multivariate Testing](http://amzn.to/1EIeB8t)
-* [You Should Test That: Conversion Optimization for More Leads, Sales and Profit or The Art and Science of Optimized Marketing](http://amzn.to/1Q6C7zZ)
++ [Experiment!: Website Conversion Rate Optimization with A/B and Multivariate Testing](http://amzn.to/1EIeB8t)
++ [You Should Test That: Conversion Optimization for More Leads, Sales and Profit or The Art and Science of Optimized Marketing](http://amzn.to/1Q6C7zZ)
