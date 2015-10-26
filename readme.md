@@ -144,19 +144,19 @@ A quick list of terms you may see when reading up about this around the web.
 * **MVT test array** is the name given to the group of elements you are going to be testing, [usually provided in table form](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/04/multivariate-te.html) so you can clearly see how many variations of a page you will need to produce.
 * **Split testing** is the same as _A/B testing_, sometimes it's used to refer to A/B tests with more than 2 version (i.e. if you're testing your control headline against 3 different headlines rather than just 1 variation)
 
-##Resources
-* [ ] A/B testing 101: https://blog.kissmetrics.com/ab-testing-introduction/
-* [ ] Multivariate testing 101: http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/
-* [ ] Expert Guide to Multivariate Success: http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html
-* [ ] A/B Split Testing vs. Multivariate: Pros & Cons http://www.widerfunnel.com/conversion-rate-optimization/ab-split-testing-vs-multivariate-pros-cons
+## Resources
+* [A/B testing 101](https://blog.kissmetrics.com/ab-testing-introduction/)
+* [Multivariate testing 101](http://www.smashingmagazine.com/2011/04/04/multivariate-testing-101-a-scientific-method-of-optimizing-design/)
+* [Expert Guide to Multivariate Success](http://www.optimizeandprophesize.com/jonathan_mendezs_blog/2008/05/expert-guide-to.html) (multi-part guide)
++ Intro to [A/B testing statistics](http://conversionxl.com/ab-testing-statistics/)
 
 **What to test:**
-* [ ] The [WiderFunnel blog](http://www.widerfunnel.com/blog) is quite opinionated but a good source of inspiration
-* [ ] An excellent article on A/B testing filled with examples of what Buffer have tested: https://blog.bufferapp.com/how-buffer-ab-tests
-* [ ] 24 Marketing Experts on Their Most Surprising A/B Test: http://www.wordstream.com/blog/ws/2012/09/25/a-b-testing
+* The [WiderFunnel blog](http://www.widerfunnel.com/blog) is quite opinionated but a good source of inspiration
+* [An excellent Buffer article](https://blog.bufferapp.com/how-buffer-ab-tests) on A/B testing filled with examples of what Buffer have tested
+* [24 Marketing Experts on Their Most Surprising A/B Test results](http://www.wordstream.com/blog/ws/2012/09/25/a-b-testing)
 
 **Videos:**
-* [ ] Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
+* Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
 
 
 **Books:** (affiliate links)
