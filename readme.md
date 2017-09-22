@@ -1,6 +1,6 @@
 # A/B & Multivariate testing tutorial [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/iteles/learn-ab-and-multivariate-testing/issues)
 **This is a short introduction to the concepts of A/B and multivariate testing and how to get started.**
-    
+
 For a **practical tutorial on how to do these in [Google Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments-overview)**, please take a look at our overview: https://github.com/iteles/learn-google-content-experiments.
 
 >"Insanity is doing the same thing over and over again and expecting different results"  -  Albert Einstein
@@ -24,7 +24,7 @@ If you [make your form shorter](http://blog.crazyegg.com/2014/08/11/form-convers
 ## What are A/B testing and multivariate testing?
 People decide whether to leave or engage with a site [in the first 8 seconds](https://blog.kissmetrics.com/what-converting-websites-do/) - that's not much time to capture people's attention so you've got to get it right _for your audience_.
 
->The purpose of both A/B and multivariate tests is to **allow you to understand which changes to your web site will best help you achieve your aims** (for example increasing sign ups, sales or people clicking on articles). They do so by sending some of the people who visit your site to an **alternative version** of a given page where you have made some changes. This allows you to collect data on how your visitors react to changes and therefore determine which ones work best. 
+>The purpose of both A/B and multivariate tests is to **allow you to understand which changes to your web site will best help you achieve your aims** (for example increasing sign ups, sales or people clicking on articles). They do so by sending some of the people who visit your site to an **alternative version** of a given page where you have made some changes. This allows you to collect data on how your visitors react to changes and therefore determine which ones work best.
 
 A few of the more obvious things to test include:
 * A [call to action](http://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) (including wording and placing)
@@ -36,18 +36,18 @@ The **key** to optimisation testing is having good, measurable data to base deci
 
 **_NB. A/B and multivariate tests can also be used to test anything from email layouts to sales ads. For simplicity, in this introduction we'll stick with websites._**
 
-## Why learn this? 
+## Why learn this?
 >By changing different things _in a controlled environment_ and **_measuring the outcome_** of these changes, you **know \*exactly\* which changes achieve your site's goals** (increase your [conversion rate](#terminology)) and by how much.
 
 Now you know where to focus your efforts! Testing leads you to **get your message across** to the visitors to your site or app **in the best way possible**.
 
 If you're still not convinced, read Basecamp's article: [How we lost (and found) millions by not A/B testing](https://signalvnoise.com/posts/3945-how-we-lost-and-found-millions-by-not-ab-testing).
 
-![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png) 
+![is-the-information-youre-sharing-what-your-audience-is-looking-for?](http://imgs.xkcd.com/comics/university_website.png)
 
 ## Multivariate vs A/B Testing
 
-In **A/B testing** you test 2 (or more) different versions of your website by splitting the traffic between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal. 
+In **A/B testing** you test 2 (or more) different versions of your website by splitting the traffic between them and seeing which one performs better. You can either test 2 completely different designs of your site _or_ you can pick just **one element** you want to change and keep all other things equal.
 
 ![ab-testing-two-versions](https://cloud.githubusercontent.com/assets/4185328/7446931/a4cfa1c2-f1e0-11e4-9117-c897a8ebaa3b.jpg)
 
@@ -58,7 +58,28 @@ Just these 3 elements mean testing _8 different versions of your site at once_ w
 
 ![mvt-graphic-it](https://cloud.githubusercontent.com/assets/4185328/7446084/0846e944-f1c4-11e4-94a2-28bb5379faba.jpg)
 
-Summarised main differences:
+Due to A/B testing having far less variables (generally only 2 to 4 options)
+you can get meaningful data with far less users, thus meaning you can run the
+test for less time, and implement and reap the rewards of the test sooner.
+
+In MVT testing you are going to be testing a few different things, and the
+options can stack up quite quickly. As illustrated above, with just 2 options
+for 3 variables you already have 8 different versions of the site! It's going
+to take a lot longer to get a meaningful pool of data in this case just because
+you have so many more versions of the site to test.
+
+There is also the question of whether you are looking to make a radical
+redesign, or to make small tweaks. A radical redesign will usually contain so
+many variables that it only makes sense to A/B test it, though conducting an
+experiment is still important, as you want to confirm your hypothesis that
+your new design solves the problem you identified!
+
+If you want to make small tweaks to a design you already have then multivariate
+testing can be a good choice, just remember that you need to make sure that
+you have enough users that these tests can produce valuable results for you
+in an amount of time which fits into your testing cycle.
+
+To summarise, the main differences are:
 
 |       | A/B testing   | MVT |
 | ------------- |:-------------:| :-----: |
@@ -89,9 +110,9 @@ _Decide what your problem areas are, prioritise them and start with the first on
 #### 2. What is your goal?
 **What is it that you want this problem area to achieve?**    
  Is it an increase in the number of people who sign up to your newsletter? A drop in the number of people who leave your website without looking at more than your homepage?
- 
+
  _You have to know what you want to achieve in order to determine what you can improve to get there._
- 
+
 Note: these are simple goals; in reality you will have many concurrent goals so your goal may encompass more than just one metric, e.g. _increase the value of the average purchase by 20% with less than a 10% drop in total order numbers OR increase both average purchase value and order numbers._
 
 #### 3. Consider why it's not working as you expect (hypothesis)
@@ -100,7 +121,7 @@ You've decided that your problem area is your eBook download page and your goal 
 * They don't realise that they're a free chapter without having to buy the book?    
 * That they input their email address but never submit it to you?
 
-**This shouldn't be pure guesswork.** Use your [**metrics**](http://en.wikipedia.org/wiki/Web_analytics) to understand what's going on as best you can and if possible [**watch real users use your website or app** and ask them questions at the end](http://amzn.to/1IcNpA0). 
+**This shouldn't be pure guesswork.** Use your [**metrics**](http://en.wikipedia.org/wiki/Web_analytics) to understand what's going on as best you can and if possible [**watch real users use your website or app** and ask them questions at the end](http://amzn.to/1IcNpA0).
 
 
 _You have to have some educated deductions as to why things aren't working as expected in order to know what you should try to change in step 4._
@@ -109,7 +130,7 @@ _You have to have some educated deductions as to why things aren't working as ex
 This is the **fun part**. Based on what you think isn't working (step 3), decide what you're going to change and create your variations.
 
 * **Don't go crazy and try to test everything straight away.** Remember that the more variations you have, the more visitors you'll need to your website to get meaningful results, so just test what you truly think will have an impact.
-* Remember that you will be using your existing website as a [control](#terminology) so some visitors will still be split off to that variation. 
+* Remember that you will be using your existing website as a [control](#terminology) so some visitors will still be split off to that variation.
 
 **_Now you're ready to run your test!_**
 
@@ -121,7 +142,7 @@ We're using [Google Content Experiments](https://developers.google.com/analytics
 We've [written a step-by-step on how to set up your own Google Content Experiment](https://github.com/iteles/learn-google-content-experiments)!
 
 ### How long should you run your tests for?
-This is different for each site but here's a place to start: 
+This is different for each site but here's a place to start:
 https://vwo.com/ab-split-test-duration/
 
 We always run ours for a minimum of 2 weeks (including weekends).
@@ -157,7 +178,7 @@ A quick list of terms you may see when reading up about this around the web.
 + [An excellent Buffer article](https://blog.bufferapp.com/how-buffer-ab-tests) on A/B testing filled with examples of what Buffer have tested
 + [24 Marketing Experts on Their Most Surprising A/B Test results](http://www.wordstream.com/blog/ws/2012/09/25/a-b-testing)
 + **Case study** of testing the [Highrise headline banner](https://signalvnoise.com/posts/1525-writing-decisions-headline-tests-on-the-highrise-signup-page)
-+ 
++
 
 **Videos:**
 + Best Practices & Lessons Learned from 30,000 A/B and Multivariate Tests (from the folks at Optimizely on the Obama campaign): https://www.youtube.com/watch?v=7xV7dlwMChc
